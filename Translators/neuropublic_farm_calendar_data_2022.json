@@ -1,0 +1,259 @@
+"SIPX": {
+        "2022": {
+                "phaenological": [
+                    {
+                        "parcelId": 00,
+                        "crop": "crop_y",
+                        "variety": "variety_x",
+                        "stage": "dormancy",
+                        "from": "2022-03-14",
+                        "to": "2022-03-27"
+                    },
+                    {
+                        "parcelId": 00,
+                        "crop": "crop_y",
+                        "variety": "variety_x",
+                        "stage": "bud swelling",
+                        "from": "2022-03-28",
+                        "to": "2022-04-11"
+                    },
+                    {
+                        "parcelId": 00,
+                        "crop": "crop_y",
+                        "variety": "variety_x",
+                        "stage": "3rd leaf unfolding",
+                        "from": "2022-04-12",
+                        "to": "2022-04-18"
+                    },
+                    {
+                        "parcelId": 00,
+                        "crop": "crop_y",
+                        "variety": "variety_x",
+                        "stage": "Inflorescences clearly visible",
+                        "from": "2022-04-19",
+                        "to": "2022-04-27"
+                    },
+                    {
+                        "parcelId": 00,
+                        "crop": "crop_y",
+                        "variety": "variety_x",
+                        "stage": "Inflorescences swelling, flowers closely pressed together",
+                        "from": "2022-04-28",
+                        "to": "2022-05-09"
+                    },
+                    {
+                        "parcelId": 00,
+                        "crop": "crop_y",
+                        "variety": "variety_x",
+                        "stage": "Inflorescences fully developed",
+                        "from": "2022-05-10",
+                        "to": "2022-05-22"
+                    },
+                    {
+                        "parcelId": 00,
+                        "crop": "crop_y",
+                        "variety": "variety_x",
+                        "stage": "First flowerhoods detached from the receptacle",
+                        "from": "2022-05-23",
+                        "to": "2022-05-30"
+                    },
+                    {
+                        "parcelId": 00,
+                        "crop": "crop_y",
+                        "variety": "variety_x",
+                        "stage": "Full flowering: 50% of flowerhoods fallen",
+                        "from": "2022-05-31",
+                        "to": "2022-06-05"
+                    },
+                    {
+                        "parcelId": 00,
+                        "crop": "crop_y",
+                        "variety": "variety_x",
+                        "stage": "End of flowering",
+                        "from": "2022-06-06",
+                        "to": "2022-06-12"
+                    },
+                    {
+                        "parcelId": 00,
+                        "crop": "crop_y",
+                        "variety": "variety_x",
+                        "stage": "Fruit set: young fruits begin to swell, remains of flowers lost",
+                        "from": "2022-06-13",
+                        "to": "2022-06-20"
+                    },
+                    {
+                        "parcelId": 00,
+                        "crop": "crop_y",
+                        "variety": "variety_x",
+                        "stage": "Berries pea-sized, bunches hang",
+                        "from": "2022-06-21",
+                        "to": "2022-06-26"
+                    },
+                    {
+                        "parcelId": 00,
+                        "crop": "crop_y",
+                        "variety": "variety_x",
+                        "stage": "Majority of berries touching",
+                        "from": "2022-06-27",
+                        "to": "2022-07-24"
+                    },
+                    {
+                        "parcelId": 00,
+                        "crop": "crop_y",
+                        "variety": "variety_x",
+                        "stage": "Beginning of ripening: berries begin to develop variety-specific colour",
+                        "from": "2022-07-25",
+                        "to": "2022-08-12"
+                    },
+                    {
+                        "parcelId": 00,
+                        "crop": "crop_y",
+                        "variety": "variety_x",
+                        "stage": "Berries ripe for harvest",
+                        "from": "2022-08-13",
+                        "to": "2022-09-25"
+                    },
+                    {
+                        "parcelId": 00,
+                        "crop": "crop_y",
+                        "variety": "variety_x",
+                        "stage": "After harvest - end of wood maturation",
+                        "from": "2022-09-26",
+                        "to": "2023-03-28"
+                    }
+                ],
+                "irrigations": [
+                    {
+                        "parcelId": 00,
+                        "date": "2022-08-03",
+                        "startDateTime": "2022-08-03 12:00:00",
+                        "endDateTime": "2022-08-03 16:00:00",
+                        "waterQuantity": "40.0 m3/Stremma",
+                        "irrigationSystem": "surface drip irrigation",
+                        "remarks": null,
+                        "irigHour": "4.000",
+                        "fuelConsumption": null,
+                        "fuelType": null,
+                        "fuelConsumptionDescr": null,
+                        "fuelMagnSymbol": null,
+                        "fuelMagnRef": null
+                    },
+                    {
+                        "parcelId": 00,
+                        "date": "2022-08-04",
+                        "startDateTime": "2022-08-04 06:00:00",
+                        "endDateTime": "2022-08-04 10:00:00",
+                        "waterQuantity": "40.0 m3/Stremma",
+                        "irrigationSystem": "surface drip irrigation",
+                        "remarks": null,
+                        "irigHour": "4.000",
+                        "fuelConsumption": null,
+                        "fuelType": null,
+                        "fuelConsumptionDescr": null,
+                        "fuelMagnSymbol": null,
+                        "fuelMagnRef": null
+                    }
+                ],
+                "sprays": [
+                    {
+                        "parcelId": 00,
+                        "date": "2022-05-19",
+                        "drugName": null,
+                        "dose": 7.0,
+                        "unit": "kg",
+                        "activeSubstance": "Sulphur",
+                        "target": "Powdery mildew",
+                        "remarks": null
+                    },
+                    {
+                        "parcelId": 00,
+                        "date": "2022-06-20",
+                        "drugName": null,
+                        "dose": 6.0,
+                        "unit": "kg",
+                        "activeSubstance": "Sulphur",
+                        "target": "Powdery mildew",
+                        "remarks": null
+                    },
+                    {
+                        "parcelId": 00,
+                        "date": "2022-07-31",
+                        "drugName": null,
+                        "dose": 50.0,
+                        "unit": "ml",
+                        "activeSubstance": "Penconazole",
+                        "target": "Powdery mildew",
+                        "remarks": null
+                    },
+                    {
+                        "parcelId": 00,
+                        "date": "2022-07-31",
+                        "drugName": null,
+                        "dose": 30.0,
+                        "unit": "ml",
+                        "activeSubstance": "Chlorantraniliprole",
+                        "target": "European grapecrop_y moth",
+                        "remarks": null
+                    }
+                ],
+                "harvest": [
+                    {
+                        "parcelId": 00,
+                        "date": "2022-08-22",
+                        "quantity": 760.0,
+                        "magnSymbol": "kg/Stremma",
+                        "remarks": null,
+                        "fuelConsumption": 0.0,
+                        "fuelType": "",
+                        "fuelConsumptionDescr": "",
+                        "fuelMagnSymbol": "",
+                        "fuelMagnRef": "",
+                        "bucketCodes": null
+                    }
+                ],
+                "fertilization": [
+                    {
+                        "parcelId": 00,
+                        "date": "2022-02-28",
+                        "cuwoDescription": "basal fertiliser application",
+                        "prcaDescription": "inorganic fertilizer in solid phase",
+                        "lumeDescription": "Broadcasting",
+                        "lubrDose": "40.000",
+                        "magnSymbol": "kg",
+                        "magnReferenceDose": "Stremma",
+                        "remarks": null,
+                        "lutyDescription": "20-10-10",
+                        "tradeName": null,
+                        "fuelConsumption": null,
+                        "fuelType": null,
+                        "fuelConsumptionDescr": null,
+                        "fuelMagnSymbol": null,
+                        "fuelMagnRef": null
+                    }
+                ],
+                "land_management": [
+                    {
+                        "parcelId": 00,
+                        "date": "2022-03-29",
+                        "cuwoDescription": "rotary tillage",
+                        "remarks": null,
+                        "fuelConsumption": null,
+                        "fuelType": null,
+                        "fuelConsumptionDescr": null,
+                        "fuelMagnSymbol": null,
+                        "fuelMagnRef": null
+                    },
+                    {
+                        "parcelId": 00,
+                        "date": "2022-11-22",
+                        "cuwoDescription": "disk harrow",
+                        "remarks": "between the lines",
+                        "fuelConsumption": null,
+                        "fuelType": null,
+                        "fuelConsumptionDescr": null,
+                        "fuelMagnSymbol": null,
+                        "fuelMagnRef": null
+                    }
+                ]
+            }
+    }

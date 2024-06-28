@@ -1,0 +1,1473 @@
+{
+  "@context": [
+    "https://w3id.org/demeter/agri-context.jsonld",
+	  {    
+      "qudt-unit": "http://qudt.org/vocab/unit/"
+    }
+   ],
+   "@graph": [
+  	{
+      "@id": "urn:demeter:plot:abc",
+      "@type": "Plot",
+      "hasGeometry": {
+        "@id": "urn:demeter:plot:geo:cba",
+        "@type": "Polygon",
+        "asWKT": "POLYGON (100 0, 101 0, 101 1, 100 1, 100 0)"
+      },
+      "area": 2012120,
+      "description": "Maize plot",
+      "category": "arable",
+      "crop": {
+        "@id": "urn:demeter:crop:xxx",
+        "@type": "Crop",
+        "cropSpecies": "urn:demeter:croptype:xxx",
+        "cropStatus": "seeded",
+        "lastPlantedAt": "2016-08-23T10:18:16Z"
+      }      
+    },
+    {
+      "@id": "urn:demeter:croptype:xxx",
+      "@type": "CropType",
+      "name": "Maize"
+    },
+
+      [
+
+            {
+        "@id": "urn:demeter:observation-2016-1,
+          "@type": "Observation",
+          "observedProperty": "http://example.com/phaenological",
+          "hasFeatureOfInterest": "urn:demeter:plot:abc",
+          "madeBySensor": "sensor/35-207306-844818-0/BMP282",
+          "hasResult": [
+		urn:demeter:observation-2016-1/result1,
+		urn:demeter:observation-2016-1/result2,
+		urn:demeter:observation-2016-1/result3,
+		urn:demeter:observation-2016-1/result4,
+		urn:demeter:observation-2016-1/result5,
+		urn:demeter:observation-2016-1/result6,
+		urn:demeter:observation-2016-1/result7,
+		urn:demeter:observation-2016-1/result8,
+		urn:demeter:observation-2016-1/result9,
+		urn:demeter:observation-2016-1/result10,
+		urn:demeter:observation-2016-1/result11,
+		urn:demeter:observation-2016-1/result12,
+		urn:demeter:observation-2016-1/result13,
+		urn:demeter:observation-2016-1/result14,
+		urn:demeter:observation-2016-1/result15
+		]
+            },
+        {
+          "@id": urn:demeter:observation-2016-1/result1,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result1,
+          "@type": "QuantityValue",
+          "identifier": "crop",
+          "value": "crop_y",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result1,
+          "@type": "QuantityValue",
+          "identifier": "variety",
+          "value": "variety_x",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result1,
+          "@type": "QuantityValue",
+          "identifier": "stage",
+          "value": "dormancy",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result1,
+          "@type": "QuantityValue",
+          "identifier": "from",
+          "value": "2022-03-14",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result1,
+          "@type": "QuantityValue",
+          "identifier": "to",
+          "value": "2022-03-27",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result2,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result2,
+          "@type": "QuantityValue",
+          "identifier": "crop",
+          "value": "crop_y",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result2,
+          "@type": "QuantityValue",
+          "identifier": "variety",
+          "value": "variety_x",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result2,
+          "@type": "QuantityValue",
+          "identifier": "stage",
+          "value": "bud swelling",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result2,
+          "@type": "QuantityValue",
+          "identifier": "from",
+          "value": "2022-03-28",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result2,
+          "@type": "QuantityValue",
+          "identifier": "to",
+          "value": "2022-04-11",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result3,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result3,
+          "@type": "QuantityValue",
+          "identifier": "crop",
+          "value": "crop_y",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result3,
+          "@type": "QuantityValue",
+          "identifier": "variety",
+          "value": "variety_x",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result3,
+          "@type": "QuantityValue",
+          "identifier": "stage",
+          "value": "3rd leaf unfolding",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result3,
+          "@type": "QuantityValue",
+          "identifier": "from",
+          "value": "2022-04-12",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result3,
+          "@type": "QuantityValue",
+          "identifier": "to",
+          "value": "2022-04-18",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result4,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result4,
+          "@type": "QuantityValue",
+          "identifier": "crop",
+          "value": "crop_y",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result4,
+          "@type": "QuantityValue",
+          "identifier": "variety",
+          "value": "variety_x",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result4,
+          "@type": "QuantityValue",
+          "identifier": "stage",
+          "value": "Inflorescences clearly visible",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result4,
+          "@type": "QuantityValue",
+          "identifier": "from",
+          "value": "2022-04-19",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result4,
+          "@type": "QuantityValue",
+          "identifier": "to",
+          "value": "2022-04-27",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result5,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result5,
+          "@type": "QuantityValue",
+          "identifier": "crop",
+          "value": "crop_y",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result5,
+          "@type": "QuantityValue",
+          "identifier": "variety",
+          "value": "variety_x",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result5,
+          "@type": "QuantityValue",
+          "identifier": "stage",
+          "value": "Inflorescences swelling, flowers closely pressed together",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result5,
+          "@type": "QuantityValue",
+          "identifier": "from",
+          "value": "2022-04-28",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result5,
+          "@type": "QuantityValue",
+          "identifier": "to",
+          "value": "2022-05-09",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result6,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result6,
+          "@type": "QuantityValue",
+          "identifier": "crop",
+          "value": "crop_y",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result6,
+          "@type": "QuantityValue",
+          "identifier": "variety",
+          "value": "variety_x",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result6,
+          "@type": "QuantityValue",
+          "identifier": "stage",
+          "value": "Inflorescences fully developed",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result6,
+          "@type": "QuantityValue",
+          "identifier": "from",
+          "value": "2022-05-10",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result6,
+          "@type": "QuantityValue",
+          "identifier": "to",
+          "value": "2022-05-22",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result7,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result7,
+          "@type": "QuantityValue",
+          "identifier": "crop",
+          "value": "crop_y",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result7,
+          "@type": "QuantityValue",
+          "identifier": "variety",
+          "value": "variety_x",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result7,
+          "@type": "QuantityValue",
+          "identifier": "stage",
+          "value": "First flowerhoods detached from the receptacle",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result7,
+          "@type": "QuantityValue",
+          "identifier": "from",
+          "value": "2022-05-23",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result7,
+          "@type": "QuantityValue",
+          "identifier": "to",
+          "value": "2022-05-30",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result8,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result8,
+          "@type": "QuantityValue",
+          "identifier": "crop",
+          "value": "crop_y",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result8,
+          "@type": "QuantityValue",
+          "identifier": "variety",
+          "value": "variety_x",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result8,
+          "@type": "QuantityValue",
+          "identifier": "stage",
+          "value": "Full flowering: 50% of flowerhoods fallen",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result8,
+          "@type": "QuantityValue",
+          "identifier": "from",
+          "value": "2022-05-31",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result8,
+          "@type": "QuantityValue",
+          "identifier": "to",
+          "value": "2022-06-05",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result9,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result9,
+          "@type": "QuantityValue",
+          "identifier": "crop",
+          "value": "crop_y",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result9,
+          "@type": "QuantityValue",
+          "identifier": "variety",
+          "value": "variety_x",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result9,
+          "@type": "QuantityValue",
+          "identifier": "stage",
+          "value": "End of flowering",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result9,
+          "@type": "QuantityValue",
+          "identifier": "from",
+          "value": "2022-06-06",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result9,
+          "@type": "QuantityValue",
+          "identifier": "to",
+          "value": "2022-06-12",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result10,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result10,
+          "@type": "QuantityValue",
+          "identifier": "crop",
+          "value": "crop_y",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result10,
+          "@type": "QuantityValue",
+          "identifier": "variety",
+          "value": "variety_x",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result10,
+          "@type": "QuantityValue",
+          "identifier": "stage",
+          "value": "Fruit set: young fruits begin to swell, remains of flowers lost",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result10,
+          "@type": "QuantityValue",
+          "identifier": "from",
+          "value": "2022-06-13",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result10,
+          "@type": "QuantityValue",
+          "identifier": "to",
+          "value": "2022-06-20",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result11,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result11,
+          "@type": "QuantityValue",
+          "identifier": "crop",
+          "value": "crop_y",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result11,
+          "@type": "QuantityValue",
+          "identifier": "variety",
+          "value": "variety_x",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result11,
+          "@type": "QuantityValue",
+          "identifier": "stage",
+          "value": "Berries pea-sized, bunches hang",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result11,
+          "@type": "QuantityValue",
+          "identifier": "from",
+          "value": "2022-06-21",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result11,
+          "@type": "QuantityValue",
+          "identifier": "to",
+          "value": "2022-06-26",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result12,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result12,
+          "@type": "QuantityValue",
+          "identifier": "crop",
+          "value": "crop_y",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result12,
+          "@type": "QuantityValue",
+          "identifier": "variety",
+          "value": "variety_x",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result12,
+          "@type": "QuantityValue",
+          "identifier": "stage",
+          "value": "Majority of berries touching",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result12,
+          "@type": "QuantityValue",
+          "identifier": "from",
+          "value": "2022-06-27",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result12,
+          "@type": "QuantityValue",
+          "identifier": "to",
+          "value": "2022-07-24",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result13,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result13,
+          "@type": "QuantityValue",
+          "identifier": "crop",
+          "value": "crop_y",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result13,
+          "@type": "QuantityValue",
+          "identifier": "variety",
+          "value": "variety_x",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result13,
+          "@type": "QuantityValue",
+          "identifier": "stage",
+          "value": "Beginning of ripening: berries begin to develop variety-specific colour",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result13,
+          "@type": "QuantityValue",
+          "identifier": "from",
+          "value": "2022-07-25",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result13,
+          "@type": "QuantityValue",
+          "identifier": "to",
+          "value": "2022-08-12",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result14,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result14,
+          "@type": "QuantityValue",
+          "identifier": "crop",
+          "value": "crop_y",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result14,
+          "@type": "QuantityValue",
+          "identifier": "variety",
+          "value": "variety_x",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result14,
+          "@type": "QuantityValue",
+          "identifier": "stage",
+          "value": "Berries ripe for harvest",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result14,
+          "@type": "QuantityValue",
+          "identifier": "from",
+          "value": "2022-08-13",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result14,
+          "@type": "QuantityValue",
+          "identifier": "to",
+          "value": "2022-09-25",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result15,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result15,
+          "@type": "QuantityValue",
+          "identifier": "crop",
+          "value": "crop_y",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result15,
+          "@type": "QuantityValue",
+          "identifier": "variety",
+          "value": "variety_x",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result15,
+          "@type": "QuantityValue",
+          "identifier": "stage",
+          "value": "After harvest - end of wood maturation",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result15,
+          "@type": "QuantityValue",
+          "identifier": "from",
+          "value": "2022-09-26",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-1/result15,
+          "@type": "QuantityValue",
+          "identifier": "to",
+          "value": "2023-03-28",
+          "unit": "qudt-unit:xyz"
+        },
+
+            {
+        "@id": "urn:demeter:observation-2016-2,
+          "@type": "Observation",
+          "observedProperty": "http://example.com/irrigations",
+          "hasFeatureOfInterest": "urn:demeter:plot:abc",
+          "madeBySensor": "sensor/35-207306-844818-0/BMP282",
+          "hasResult": [
+		urn:demeter:observation-2016-2/result1,
+		urn:demeter:observation-2016-2/result2
+		]
+            },
+        {
+          "@id": urn:demeter:observation-2016-2/result1,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result1,
+          "@type": "QuantityValue",
+          "identifier": "date",
+          "value": "2022-08-03",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result1,
+          "@type": "QuantityValue",
+          "identifier": "startDateTime",
+          "value": "2022-08-03 12:00:00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result1,
+          "@type": "QuantityValue",
+          "identifier": "endDateTime",
+          "value": "2022-08-03 16:00:00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result1,
+          "@type": "QuantityValue",
+          "identifier": "waterQuantity",
+          "value": "40.0 m3/Stremma",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result1,
+          "@type": "QuantityValue",
+          "identifier": "irrigationSystem",
+          "value": "surface drip irrigation",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result1,
+          "@type": "QuantityValue",
+          "identifier": "remarks",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result1,
+          "@type": "QuantityValue",
+          "identifier": "irigHour",
+          "value": "4.000",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelConsumption",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelType",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelConsumptionDescr",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelMagnSymbol",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelMagnRef",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result2,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result2,
+          "@type": "QuantityValue",
+          "identifier": "date",
+          "value": "2022-08-04",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result2,
+          "@type": "QuantityValue",
+          "identifier": "startDateTime",
+          "value": "2022-08-04 06:00:00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result2,
+          "@type": "QuantityValue",
+          "identifier": "endDateTime",
+          "value": "2022-08-04 10:00:00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result2,
+          "@type": "QuantityValue",
+          "identifier": "waterQuantity",
+          "value": "40.0 m3/Stremma",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result2,
+          "@type": "QuantityValue",
+          "identifier": "irrigationSystem",
+          "value": "surface drip irrigation",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result2,
+          "@type": "QuantityValue",
+          "identifier": "remarks",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result2,
+          "@type": "QuantityValue",
+          "identifier": "irigHour",
+          "value": "4.000",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result2,
+          "@type": "QuantityValue",
+          "identifier": "fuelConsumption",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result2,
+          "@type": "QuantityValue",
+          "identifier": "fuelType",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result2,
+          "@type": "QuantityValue",
+          "identifier": "fuelConsumptionDescr",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result2,
+          "@type": "QuantityValue",
+          "identifier": "fuelMagnSymbol",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-2/result2,
+          "@type": "QuantityValue",
+          "identifier": "fuelMagnRef",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+
+            {
+        "@id": "urn:demeter:observation-2016-3,
+          "@type": "Observation",
+          "observedProperty": "http://example.com/sprays",
+          "hasFeatureOfInterest": "urn:demeter:plot:abc",
+          "madeBySensor": "sensor/35-207306-844818-0/BMP282",
+          "hasResult": [
+		urn:demeter:observation-2016-3/result1,
+		urn:demeter:observation-2016-3/result2,
+		urn:demeter:observation-2016-3/result3,
+		urn:demeter:observation-2016-3/result4
+		]
+            },
+        {
+          "@id": urn:demeter:observation-2016-3/result1,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result1,
+          "@type": "QuantityValue",
+          "identifier": "date",
+          "value": "2022-05-19",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result1,
+          "@type": "QuantityValue",
+          "identifier": "drugName",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result1,
+          "@type": "QuantityValue",
+          "identifier": "dose",
+          "value": "7",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result1,
+          "@type": "QuantityValue",
+          "identifier": "unit",
+          "value": "kg",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result1,
+          "@type": "QuantityValue",
+          "identifier": "activeSubstance",
+          "value": "Sulphur",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result1,
+          "@type": "QuantityValue",
+          "identifier": "target",
+          "value": "Powdery mildew",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result1,
+          "@type": "QuantityValue",
+          "identifier": "remarks",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result2,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result2,
+          "@type": "QuantityValue",
+          "identifier": "date",
+          "value": "2022-06-20",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result2,
+          "@type": "QuantityValue",
+          "identifier": "drugName",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result2,
+          "@type": "QuantityValue",
+          "identifier": "dose",
+          "value": "6",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result2,
+          "@type": "QuantityValue",
+          "identifier": "unit",
+          "value": "kg",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result2,
+          "@type": "QuantityValue",
+          "identifier": "activeSubstance",
+          "value": "Sulphur",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result2,
+          "@type": "QuantityValue",
+          "identifier": "target",
+          "value": "Powdery mildew",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result2,
+          "@type": "QuantityValue",
+          "identifier": "remarks",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result3,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result3,
+          "@type": "QuantityValue",
+          "identifier": "date",
+          "value": "2022-07-31",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result3,
+          "@type": "QuantityValue",
+          "identifier": "drugName",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result3,
+          "@type": "QuantityValue",
+          "identifier": "dose",
+          "value": "50",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result3,
+          "@type": "QuantityValue",
+          "identifier": "unit",
+          "value": "ml",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result3,
+          "@type": "QuantityValue",
+          "identifier": "activeSubstance",
+          "value": "Penconazole",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result3,
+          "@type": "QuantityValue",
+          "identifier": "target",
+          "value": "Powdery mildew",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result3,
+          "@type": "QuantityValue",
+          "identifier": "remarks",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result4,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result4,
+          "@type": "QuantityValue",
+          "identifier": "date",
+          "value": "2022-07-31",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result4,
+          "@type": "QuantityValue",
+          "identifier": "drugName",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result4,
+          "@type": "QuantityValue",
+          "identifier": "dose",
+          "value": "30",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result4,
+          "@type": "QuantityValue",
+          "identifier": "unit",
+          "value": "ml",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result4,
+          "@type": "QuantityValue",
+          "identifier": "activeSubstance",
+          "value": "Chlorantraniliprole",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result4,
+          "@type": "QuantityValue",
+          "identifier": "target",
+          "value": "European grapecrop_y moth",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-3/result4,
+          "@type": "QuantityValue",
+          "identifier": "remarks",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+
+            {
+        "@id": "urn:demeter:observation-2016-4,
+          "@type": "Observation",
+          "observedProperty": "http://example.com/harvest",
+          "hasFeatureOfInterest": "urn:demeter:plot:abc",
+          "madeBySensor": "sensor/35-207306-844818-0/BMP282",
+          "hasResult": [
+		urn:demeter:observation-2016-4/result1
+		]
+            },
+        {
+          "@id": urn:demeter:observation-2016-4/result1,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-4/result1,
+          "@type": "QuantityValue",
+          "identifier": "date",
+          "value": "2022-08-22",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-4/result1,
+          "@type": "QuantityValue",
+          "identifier": "quantity",
+          "value": "760",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-4/result1,
+          "@type": "QuantityValue",
+          "identifier": "magnSymbol",
+          "value": "kg/Stremma",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-4/result1,
+          "@type": "QuantityValue",
+          "identifier": "remarks",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-4/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelConsumption",
+          "value": "0",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-4/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelType",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-4/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelConsumptionDescr",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-4/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelMagnSymbol",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-4/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelMagnRef",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-4/result1,
+          "@type": "QuantityValue",
+          "identifier": "bucketCodes",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+
+            {
+        "@id": "urn:demeter:observation-2016-5,
+          "@type": "Observation",
+          "observedProperty": "http://example.com/fertilization",
+          "hasFeatureOfInterest": "urn:demeter:plot:abc",
+          "madeBySensor": "sensor/35-207306-844818-0/BMP282",
+          "hasResult": [
+		urn:demeter:observation-2016-5/result1
+		]
+            },
+        {
+          "@id": urn:demeter:observation-2016-5/result1,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-5/result1,
+          "@type": "QuantityValue",
+          "identifier": "date",
+          "value": "2022-02-28",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-5/result1,
+          "@type": "QuantityValue",
+          "identifier": "cuwoDescription",
+          "value": "basal fertiliser application",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-5/result1,
+          "@type": "QuantityValue",
+          "identifier": "prcaDescription",
+          "value": "inorganic fertilizer in solid phase",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-5/result1,
+          "@type": "QuantityValue",
+          "identifier": "lumeDescription",
+          "value": "Broadcasting",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-5/result1,
+          "@type": "QuantityValue",
+          "identifier": "lubrDose",
+          "value": "40.000",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-5/result1,
+          "@type": "QuantityValue",
+          "identifier": "magnSymbol",
+          "value": "kg",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-5/result1,
+          "@type": "QuantityValue",
+          "identifier": "magnReferenceDose",
+          "value": "Stremma",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-5/result1,
+          "@type": "QuantityValue",
+          "identifier": "remarks",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-5/result1,
+          "@type": "QuantityValue",
+          "identifier": "lutyDescription",
+          "value": "20-10-10",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-5/result1,
+          "@type": "QuantityValue",
+          "identifier": "tradeName",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-5/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelConsumption",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-5/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelType",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-5/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelConsumptionDescr",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-5/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelMagnSymbol",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-5/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelMagnRef",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+
+            {
+        "@id": "urn:demeter:observation-2016-6,
+          "@type": "Observation",
+          "observedProperty": "http://example.com/land_management",
+          "hasFeatureOfInterest": "urn:demeter:plot:abc",
+          "madeBySensor": "sensor/35-207306-844818-0/BMP282",
+          "hasResult": [
+		urn:demeter:observation-2016-6/result1,
+		urn:demeter:observation-2016-6/result2
+		]
+            },
+        {
+          "@id": urn:demeter:observation-2016-6/result1,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result1,
+          "@type": "QuantityValue",
+          "identifier": "date",
+          "value": "2022-03-29",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result1,
+          "@type": "QuantityValue",
+          "identifier": "cuwoDescription",
+          "value": "rotary tillage",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result1,
+          "@type": "QuantityValue",
+          "identifier": "remarks",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelConsumption",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelType",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelConsumptionDescr",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelMagnSymbol",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result1,
+          "@type": "QuantityValue",
+          "identifier": "fuelMagnRef",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result2,
+          "@type": "QuantityValue",
+          "identifier": "parcelId",
+          "value": "00",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result2,
+          "@type": "QuantityValue",
+          "identifier": "date",
+          "value": "2022-11-22",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result2,
+          "@type": "QuantityValue",
+          "identifier": "cuwoDescription",
+          "value": "disk harrow",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result2,
+          "@type": "QuantityValue",
+          "identifier": "remarks",
+          "value": "between the lines",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result2,
+          "@type": "QuantityValue",
+          "identifier": "fuelConsumption",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result2,
+          "@type": "QuantityValue",
+          "identifier": "fuelType",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result2,
+          "@type": "QuantityValue",
+          "identifier": "fuelConsumptionDescr",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result2,
+          "@type": "QuantityValue",
+          "identifier": "fuelMagnSymbol",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+        {
+          "@id": urn:demeter:observation-2016-6/result2,
+          "@type": "QuantityValue",
+          "identifier": "fuelMagnRef",
+          "value": "",
+          "unit": "qudt-unit:xyz"
+        },
+	]
+    ]
+}
